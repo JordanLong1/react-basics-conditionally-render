@@ -1,6 +1,5 @@
 import React from 'react'
 
-
 const LoginButton = (props) => {
     console.log(props.onClick)
     return (
