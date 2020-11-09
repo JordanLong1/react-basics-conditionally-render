@@ -5,8 +5,6 @@ import {Greeting} from './Greeting'
 class LoginControl extends React.Component {
 
     state = {isLoggedIn: false}
-
-
     handleToggle = () => {
         this.setState({
             isLoggedIn: !this.state.isLoggedIn
