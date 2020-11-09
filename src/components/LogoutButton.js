@@ -8,6 +8,6 @@ const LogoutButton = (props) => {
             <button onClick={props.onClick}>LogOut</button>
         </div>
     )
-}
+};
 
 export default LogoutButton
